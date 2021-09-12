@@ -1,0 +1,66 @@
+table.tictactoe td {
+    font-size: 48px;
+    font-family: Verdana;
+    padding:8px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    border-collapse : collapse;
+   
+    }
+
+
+
+.imageDeFond{
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/977/444/888/background-black-color-texture-wallpaper-preview.jpg");
+    padding : 50px;
+}
+
+.caseCote{
+    width:150px; height:150px; text-align: center; color:white; 
+}
+
+.casemilieuHautBas{
+    width:150px; height:150px; text-align: center; border-left: solid 1px white; border-right: solid 1px white; color:white;
+}
+
+.caseMilieuGaucheDroite{
+    width:150px; height:150px; text-align: center; border-top: solid 1px white; border-bottom: solid 1px white; color:white;
+}
+
+.caseCentre{
+    height:150px; text-align: center; border: solid 1px white; color:white;
+}
+
+
+
+.caseCoteV{
+    width:150px; height:150px; text-align: center; color:red;
+}
+
+.casemilieuHautBasV{
+    width:150px; height:150px; text-align: center; border-left: solid 1px white; border-right: solid 1px white;color:red;
+}
+
+.caseMilieuGaucheDroiteV{
+    width:150px; height:150px; text-align: center; border-top: solid 1px white; border-bottom: solid 1px white;color:red;
+}
+
+.caseCentreV{
+    height:150px; text-align: center; border: solid 1px white;color:red;
+}
+
+
+.message {
+    display:flex; 
+    justify-content:center; 
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
