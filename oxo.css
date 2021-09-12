@@ -1,0 +1,41 @@
+table.tictactoe {
+    border-collapse: collapse;
+    }
+ 
+ table.tictactoe tr {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #aaaaaa;
+    }
+ 
+ table.tictactoe tr:first-child {
+    border-top-style: none;
+    border-top-width: 0px;
+    }
+ 
+ 
+ table.tictactoe td {
+    font-size: 48px;
+    font-family: Verdana;
+    width:64px;
+    height:64px;
+    padding:8px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #aaaaaa;
+    }
+ 
+ table.tictactoe td:first-child {
+    border-left-style: none;
+    border-left-width: 0px;
+    } 
+ 
+ div.message {
+    margin-top: 24px;
+    font-size: 18px;
+    font-family: Verdana;
+    color: #aaaaaa;
+    }
